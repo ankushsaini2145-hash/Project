@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Finance News Today</title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+        <script>
+            function myFunction() {
+                let x = document.body;
+                x.classList.toggle("w3-black");
+            }
+        </script>
+        <style>
+        .head{
+            display: flex;
+        }
+        .Dark{
+            margin-left: 55%;
+            margin-top: 15px;
+            border-radius: 10px;
+        }
+        body{
+            font-family:'Roboto',Sans-Serif ;
+            background-color:#F4F4F4;
+        }
+        .navbar{
+            background-color: DarkBlue;
+            color:#FFFFFF;
+            position: sticky;
+            top: 0;
+        }
+        .navbar a:hover{
+            color: #3A84FF;
+        }
+        a{
+            text-decoration: none;
+            }
+        footer{
+            background-color: DarkBlue;
+            color: #FFFFFF;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="head">
+            <h2 class="w3-center w3-half" id="Top">
+            Finance News Today
+            </h2>
+            <div class="w3-right w3-half">
+                <input class="Dark" type="submit" value="Dark Mode" onclick="myFunction()">
+                </div>
+        </div>
+        <div class="navbar w3-bar w3-card">
+            <a class=" w3-bar-item" href="index.html">Home</a>
+            <a class="w3-bar-item" href="Markets.html">Market</a>
+            <a class="w3-bar-item"href="business.html">Business</a>
+            <a class="w3-bar-item" href="Watchlist.html">Watchlist</a>
+            <a class="w3-bar-item"href="Economy.html">Economy</a>
+            <a class="w3-bar-item"href="About.html">About</a>
+        </div>
+        <h2 class="w3-center">Crypto Market</h2>
+            <table border="0" class="w3-table-all w3-hoverable">
+                <tr>
+                    <th>No.</th>
+                    <th>Symbol</th>
+                    <th>Cryptocurrency</th>
+                    <th>Price (USD)</th>
+                    <th>24h Change (%)</th>
+                    <th>7d Change (%)</th>
+                    <th>Market Cap</th>
+                    <th>Volume 24h</th>
+                    <th>Circulating Supply</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>BTC</td>
+                    <td>Bitcoin</td>
+                    <td>$27,450</td>
+                    <td class="w3-text-green">+2.1%</td>
+                    <td class="w3-text-green">+5.4%</td>
+                    <td>$528B</td>
+                    <td>$28B</td>
+                    <td>19.2M</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>ETH</td>
+                    <td>Ethereum</td>
+                    <td>$1,850</td>
+                    <td class="w3-text-green">+1.8%</td>
+                    <td class="w3-text-green">+6.0%</td>
+                    <td>$224B</td>
+                    <td>$15B</td>
+                    <td>121.3M</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>BNB</td>
+                    <td>Binance Coin</td>
+                    <td>$320</td>
+                    <td class="w3-text-green">+0.9%</td>
+                    <td class="w3-text-green">+3.2%</td>
+                    <td>$55B</td>
+                    <td>$2.8B</td>
+                    <td>177.5M</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>ADA</td>
+                    <td>Cardano</td>
+                    <td>$0.45</td>
+                    <td class="w3-text-red">-0.2%</td>
+                    <td class="w3-text-green">+1.5%</td>
+                    <td>$15B</td>
+                    <td>$1.2B</td>
+                    <td>34B</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>XRP</td>
+                    <td>Ripple</td>
+                    <td>$0.55</td>
+                    <td class="w3-text-green">+1.1%</td>
+                    <td class="w3-text-green">+2.5%</td>
+                    <td>$27B</td>
+                    <td>$1.5B</td>
+                    <td>50B</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>SOL</td>
+                    <td>Solana</td>
+                    <td>$22</td>
+                    <td class="w3-text-green">+3.0%</td>
+                    <td class="w3-text-green">+8.2%</td>
+                    <td>$8B</td>
+                    <td>$0.9B</td>
+                    <td>365M</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>DOGE</td>
+                    <td>Dogecoin</td>
+                    <td>$0.075</td>
+                    <td class="w3-text-green">+2.5%</td>
+                    <td class="w3-text-green">+5.0%</td>
+                    <td>$10B</td>
+                    <td>$0.5B</td>
+                    <td>133B</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>DOT</td>
+                    <td>Polkadot</td>
+                    <td>$6.5</td>
+                    <td class="w3-text-green">+1.0%</td>
+                    <td class="w3-text-green">+3.8%</td>
+                    <td>$7B</td>
+                    <td>$0.3B</td>
+                    <td>1.1B</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>LTC</td>
+                    <td>Litecoin</td>
+                    <td>$90</td>
+                    <td class="w3-text-green">+0.7%</td>
+                    <td class="w3-text-green">+2.2%</td>
+                    <td>$6B</td>
+                    <td>$0.6B</td>
+                    <td>66M</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>LINK</td>
+                    <td>Chainlink</td>
+                    <td>$7</td>
+                    <td class="w3-text-red">-0.5%</td>
+                    <td class="w3-text-green">+1.9%</td>
+                    <td>$3B</td>
+                    <td>$0.2B</td>
+                    <td>450M</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>UNI</td>
+                    <td>Uniswap</td>
+                    <td>$5</td>
+                    <td class="w3-text-green">+0.8%</td>
+                    <td class="w3-text-green">+2.5%</td>
+                    <td>$3.2B</td>
+                    <td>$0.15B</td>
+                    <td>720M</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>AVAX</td>
+                    <td>Avalanche</td>
+                    <td>$18
+                    <td class="w3-text-green">+1.2%
+                    <td class="w3-text-green">+4.5%
+                    <td>$4.2B
+                    <td>$0.35B
+                    <td>240M</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>MATIC</td>
+                    <td>Polygon</td>
+                    <td>$0.95</td>
+                    <td class="w3-text-green">+2.0%</td>
+                    <td class="w3-text-green">+6.3%</td>
+                    <td>$8.1B</td>
+                    <td>$0.4B</td>
+                    <td>8.5B</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>XLM</td>
+                    <td>Stellar</td>
+                    <td>$0.12</td>
+                    <td class="w3-text-green">+0.6%</td>
+                    <td class="w3-text-green">+2.0%</td>
+                    <td>$3B</td>
+                    <td>$0.12B</td>
+                    <td>28B</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>VET</td>
+                    <td>VeChain</td>
+                    <td>$0.02</td>
+                    <td class="w3-text-green">+1.0%</td>
+                    <td class="w3-text-green">+3.5%</td>
+                    <td>$1.5B</td>
+                    <td>$0.05B</td>
+                    <td>64B</td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td>XTZ</td>
+                    <td>Tezos</td>
+                    <td>$1.5</td>
+                    <td class="w3-text-green">+0.9%</td>
+                    <td class="w3-text-green">+2.1%</td>
+                    <td>$1.8B</td>
+                    <td>$0.07B</td>
+                    <td>1.2B</td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td>THETA</td>
+                    <td>Theta</td>
+                    <td>$1.1</td>
+                    <td class="w3-text-green">+1.5%</td>
+                    <td class="w3-text-green">+4.0%</td>
+                    <td>$1.2B</td>
+                    <td>$0.03B</td>
+                    <td>1B</td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>ALGO</td>
+                    <td>Algorand</td>
+                    <td>$0.35</td>
+                    <td class="w3-text-green">+0.7%</td>
+                    <td class="w3-text-green">+1.8%</td>
+                    <td>$3.1B</td>
+                    <td>$0.08B</td>
+                    <td>10B</td>
+                </tr><tr>
+                    <td>19</td>
+                    <td>ATOM</td>
+                    <td>Cosmos</td>
+                    <td>$15</td>
+                    <td class="w3-text-green">+2.2%</td>
+                    <td class="w3-text-green">+5.5%</td>
+                    <td>$4B</td>
+                    <td>$0.2B</td>
+                    <td>270M</td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>EGLD</td>
+                    <td>Elrond</td>
+                    <td>$45</td>
+                    <td class="w3-text-green">+1.0%</td>
+                    <td class="w3-text-green">+3.0%</td>
+                    <td>$4.5B</td>
+                    <td>$0.15B</td>
+                    <td>100M</td>
+                </tr>
+            </table>
+            <footer class="w3-container">
+            <div class="w3-third">
+                <h4>About Us</h4>
+                <p>Finance News is a trusted platform providing the latest updates on stock markets, business, and the economy. We aim to deliver accurate, timely, and easy-to-understand financial news for investors and readers.
+                </p>
+            </div>
+            <div class="w3-third">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Markets.html">Market News</a></li>
+                    <li><a href="business.html">Business News</a></li>
+                    <li><a href="Economy.html">Economy News</a></li>
+                    <li><a href="About.html">About Us</a></li>
+                </ul>
+            </div>
+            <div class="w3-third">
+                <h4>Categories</h4>
+                <ul>
+                    <li><a href="Markets.html">Stock Market</a></li>
+                    <li><a href="business.html">Banking And Finance</a></li>
+                    <li><a href="business.html">Business & Startups</a></li>
+                    <li><a href="Economy.html">Economy & Policy</a></li>
+                    <li><a href="Markets.html">Global Markets</a></li>
+                </ul>
+            </div>
+            <div class="w3-third">
+                <h4>Disclaimer</h4>
+                <p>The information provided on Finance News is for informational purposes only and should not be considered as financial or investment advice. Readers are advised to consult a professional advisor before making any financial decisions.
+                </p>
+            </div>
+            <div class="w3-third">
+                <h4>Contact Information</h4>
+                <ul>
+                    <li><a href="#"><b>Email:</b> info@financenews.com
+                    </a></li>
+                    <li><b>Phone:</b> +91-XXXXXXXXXX
+                    </li>
+                    <li><b>Address:</b> India
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="w3-third">Follow Us (Social Media)
+                </h4>
+                <ul class="">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter(X)</a></li>
+                    <li><a href="#">Linkedin</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+            <div class="half">
+                <h4>Copyright</h4>
+                <p> ©2026 Finance News. All Rights Reserved.</p>
+            </div class="half">
+            <h4>
+                Powered by HTML5, W3CSS & JavaScript
+            </h4>
+        </footer>
+    </body>
+</html>

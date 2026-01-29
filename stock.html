@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Finance News Today</title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+        <script>
+            function myFunction() {
+                let x = document.body;
+                x.classList.toggle("w3-black");
+            }
+        </script>
+        <style>
+        .head{
+            display: flex;
+        }
+        .Dark{
+            margin-left: 55%;
+            margin-top: 15px;
+            border-radius: 10px;
+        }
+        body{
+            font-family:'Roboto',Sans-Serif ;
+            background-color:#F4F4F4;
+        }
+        .navbar{
+            background-color: DarkBlue;
+            color:#FFFFFF;
+            position: sticky;
+            top: 0;
+        }
+        .navbar a:hover{
+            color: #3A84FF;
+        }
+        a{
+            text-decoration: none;
+            }
+        footer{
+            background-color: DarkBlue;
+            color: #FFFFFF;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="head">
+            <h2 class="w3-center w3-half" id="Top">
+            Finance News Today
+            </h2>
+            <div class="w3-right w3-half">
+                <input class="Dark" type="submit" value="Dark Mode" onclick="myFunction()">
+                </div>
+        </div>
+        <div class="navbar w3-bar w3-card">
+            <a class=" w3-bar-item" href="index.html">Home</a>
+            <a class="w3-bar-item" href="Markets.html">Market</a>
+            <a class="w3-bar-item"href="business.html">Business</a>
+            <a class="w3-bar-item" href="Watchlist.html">Watchlist</a>
+            <a class="w3-bar-item"href="Economy.html">Economy</a>
+            <a class="w3-bar-item"href="About.html">About</a>
+        </div>
+        <h2 class="w3-center">Stock Market</h2>
+        <table border="0" class="w3-striped w3-table-all w3-hoverable">
+                <tr>
+                    <th>No.</th>
+                    <th>Symbol</th>
+                    <th>Name</th>
+                    <th>Last Price</th>
+                    <th>Change(%)</th>
+                    <th>Day High</th>
+                    <th>Day Low</th>
+                    <th>Market Cap</th>
+                    <th>Sector</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>RELI</td>
+                    <td>Reliance Industries</td>
+                    <td>&#x20B9;2,450</td>
+                    <td class="w3-text-green">+1.20%</td>
+                    <td>&#x20B9;2,460</td>
+                    <td>&#x20B9;2,430</td>
+                    <td>&#x20B9;16T</td>
+                    <td>Energy</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                   <td>TCS</td>
+                   <td>Tata Consultancy</td>
+                   <td>&#x20B9;3,250</td>
+                   <td class="w3-text-green">+0.50%</td>
+                   <td>&#x20B9;3,270</td>
+                   <td>&#x20B9;3,240</td>
+                   <td>&#x20B9;13T</td>
+                   <td>IT</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>INFY</td>
+                    <td>Infosys</td>
+                    <td>&#x20B9;1,900</td>
+                    <td class="w3-text-green">+0.80%</td>
+                    <td>&#x20B9;1,920</td>
+                    <td>&#x20B9;1,890</td>
+                    <td>&#x20B9;7T</td>
+                    <td>IT</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>HDFCB</td>
+                    <td>HDFC Bank</td>
+                    <td>&#x20B9;1,500</td>
+                    <td class="w3-text-red">-0.30%</td>
+                    <td>&#x20B9;1,520</td>
+                    <td>&#x20B9;1,490</td>
+                    <td>&#x20B9;8T</td>
+                    <td>Banking</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                   <td>ICICIB</td>
+                   <td>ICICI Bank</td>
+                   <td>&#x20B9;850</td>
+                   <td class="w3-text-green">+0.25%</td>
+                   <td>&#x20B9;860</td>
+                   <td>&#x20B9;840</td>
+                   <td>&#x20B9;5T</td>
+                   <td>Banking</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>LT</td>
+                    <td>Larsen & Toubro</td>
+                    <td>&#x20B9;2,200</td>
+                    <td class="w3-text-red">-0.40%</td>
+                    <td>&#x20B9;2,230</td>
+                    <td>&#x20B9;2,180</td>
+                    <td>&#x20B9;4T</td>
+                    <td>Infrastructure</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>HUL</td>
+                    <td>Hindustan Unilever</td>
+                    <td>&#x20B9;1,100</td>
+                    <td class="w3-text-green">+0.60%</td>
+                    <td>&#x20B9;1,120</td>
+                    <td>&#x20B9;1,090</td>
+                    <td>&#x20B9;3T</td>
+                    <td>IT</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                   <td>MARUTI</td>
+                   <td>Maruti Suzuki</td>
+                   <td>&#x20B9;7,500</td>
+                   <td class="w3-text-green">+1.10%</td>
+                   <td>&#x20B9;7,550</td>
+                   <td>&#x20B9;7,400</td>
+                   <td>&#x20B9;3.5T</td>
+                   <td>Automobile</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>AXISB</td>
+                    <td>Axis Bank</td>
+                    <td>&#x20B9;950</td>
+                    <td class="w3-text-red">-0.10%</td>
+                    <td>&#x20B9;960</td>
+                    <td>&#x20B9;940</td>
+                    <td>&#x20B9;3T</td>
+                    <td>Banking</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>JSWSTEEL</td>
+                    <td>JSW Steel</td>
+                    <td>&#x20B9;750</td>
+                    <td class="w3-text-green">+0.60%</td>
+                    <td>&#x20B9;760</td>
+                    <td>&#x20B9;740</td>
+                    <td>&#x20B9;1.3T</td>
+                    <td>Steel</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>HCL</td>
+                    <td>Technologies
+HCLTECH</td>
+                    <td>&#x20B9;1,100</td>
+                    <td class="w3-text-green">+0.60%</td>
+                    <td>&#x20B9;1,120</td>
+                    <td>&#x20B9;1,090</td>
+                    <td>&#x20B9;3T</td>
+                    <td>IT</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>BAJFINANCE</td>
+                    <td>Bajaj Finance</td>
+                    <td>&#x20B9;7,800</td>
+                    <td class="w3-text-green">+0.90%</td>
+                    <td>&#x20B9;7,850</td>
+                    <td>&#x20B9;7,700</td>
+                    <td>&#x20B9;3.2T</td>
+                    <td>Finance</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>BHARTIARTL</td>
+                    <td>Bharti Airtel</td>
+                    <td>&#x20B9;850</td>
+                    <td class="w3-text-green">+0.40</td>
+                    <td>&#x20B9;860</td>
+                    <td>&#x20B9;840</td>
+                    <td>&#x20B9;2.5T</td>
+                    <td>Telecom</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>TATASTEEL</td>
+                    <td>Tata Steel</td>
+                    <td>&#x20B9;1,100</td>
+                    <td class="w3-text-green">+1.20%</td>
+                    <td>&#x20B9;1,120</td>
+                    <td>&#x20B9;1,090</td>
+                    <td>&#x20B9;2T</td>
+                    <td>Steel</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>WIPRO</td>
+                    <td>Wipro</td>
+                    <td>&#x20B9;550</td>
+                    <td class="w3-text-green">+0.50%</td>
+                    <td>&#x20B9;560</td>
+                    <td>&#x20B9;540</td>
+                    <td>&#x20B9;2T</td>
+                    <td>IT</td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td>SUNPHARMA</td>
+                    <td>Sun Pharma</td>
+                    <td>&#x20B9;950</td>
+                    <td class="w3-text-red">-0.20%</td>
+                    <td>&#x20B9;960</td>
+                    <td>&#x20B9;940</td>
+                    <td>&#x20B9;1.8T</td>
+                    <td>Pharma</td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td>HDFCLIFE</td>
+                    <td>HDFC Life</td>
+                    <td>&#x20B9;650</td>
+                    <td class="w3-text-green">+0.80%</td>
+                    <td>&#x20B9;660</td>
+                    <td>&#x20B9;640</td>
+                    <td>&#x20B9;1.5T</td>
+                    <td>Insurance</td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>TECHM</td>
+                    <td>Tech Mahindra</td>
+                    <td>&#x20B9;1,050</td>
+                    <td class="w3-text-red">-0.30%</td>
+                    <td>&#x20B9;1,080</td>
+                    <td>&#x20B9;1,040</td>
+                    <td>&#x20B9;1.3T</td>
+                    <td>IT</td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td>KOTAKBANK</td>
+                    <td>Kotak Mahindra Bank</td>
+                    <td>&#x20B9;1,900</td>
+                    <td class="w3-text-green">+0.70%</td>
+                    <td>&#x20B9;1,920</td>
+                    <td>&#x20B9;1,880</td>
+                    <td>&#x20B9;1.8T</td>
+                    <td>Banking</td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>TATAMOTORS</td>
+                    <td>Tata Motors</td>
+                    <td>&#x20B9;550</td>
+                    <td class="w3-text-green">+1.00%</td>
+                    <td>&#x20B9;560</td>
+                    <td>&#x20B9;540</td>
+                    <td>&#x20B9;1.5T</td>
+                    <td>Automobile</td>
+                </tr>
+            </table>
+            <footer class="w3-container">
+            <div class="w3-third">
+                <h4>About Us</h4>
+                <p>Finance News is a trusted platform providing the latest updates on stock markets, business, and the economy. We aim to deliver accurate, timely, and easy-to-understand financial news for investors and readers.
+                </p>
+            </div>
+            <div class="w3-third">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Markets.html">Market News</a></li>
+                    <li><a href="business.html">Business News</a></li>
+                    <li><a href="Economy.html">Economy News</a></li>
+                    <li><a href="About.html">About Us</a></li>
+                </ul>
+            </div>
+            <div class="w3-third">
+                <h4>Categories</h4>
+                <ul>
+                    <li><a href="Markets.html">Stock Market</a></li>
+                    <li><a href="business.html">Banking And Finance</a></li>
+                    <li><a href="business.html">Business & Startups</a></li>
+                    <li><a href="Economy.html">Economy & Policy</a></li>
+                    <li><a href="Markets.html">Global Markets</a></li>
+                </ul>
+            </div>
+            <div class="w3-third">
+                <h4>Disclaimer</h4>
+                <p>The information provided on Finance News is for informational purposes only and should not be considered as financial or investment advice. Readers are advised to consult a professional advisor before making any financial decisions.
+                </p>
+            </div>
+            <div class="w3-third">
+                <h4>Contact Information</h4>
+                <ul>
+                    <li><a href="#"><b>Email:</b> info@financenews.com
+                    </a></li>
+                    <li><b>Phone:</b> +91-XXXXXXXXXX
+                    </li>
+                    <li><b>Address:</b> India
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="w3-third">Follow Us (Social Media)
+                </h4>
+                <ul class="">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter(X)</a></li>
+                    <li><a href="#">Linkedin</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+            <div class="half">
+                <h4>Copyright</h4>
+                <p> ©2026 Finance News. All Rights Reserved.</p>
+            </div class="half">
+            <h4>
+                Powered by HTML5, W3CSS & JavaScript
+            </h4>
+        </footer>
+    </body>
+</html>
